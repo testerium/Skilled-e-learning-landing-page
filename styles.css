@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-image: url(starter-code/assets/image-hero-desktop.png), linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+article {
+    margin: 250px 162px 350px 165px;
+    position: relative;
+}
+
+article div {
+    width: 460px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 80px;
+    justify-content: center;
+    margin: 0 165px;
+    padding-bottom: 140px;
+    max-width: 1440px;
+}
+
+main {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+button {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    border-radius: 35px;
+    padding: 14px 32px;
+}
+
+header {
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    margin: 24px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header button {
+    background: #13183F;
+    border: none;
+    float: right;
+}
+
+header button:hover {
+    cursor: pointer;
+    background: #666CA3;
+    border-radius: 28px;
+}
+
+article button {
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border: none;
+}
+
+
+article button:hover {
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+}
+
+.box {
+    padding: 0 32px 0 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+}
+
+.box img {
+    margin-top: -24px;
+}
+
+
+.box p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    padding: 24px 0;
+    height: 190px;
+
+}
+
+.box_button {
+    margin-bottom: 40px;
+}
+
+.box span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+}
+
+.box span:hover {
+    cursor: pointer;
+    color: #FFA7C3;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 71px;
+    color: #13183F;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: #13183F;
+    padding-top: 32px;
+}
+
+.p_main {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    padding: 30px 80px 40px 0px;
+}
+
+.box1 {
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 15px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    padding-top: 64px;
+}
+
+footer {
+    width: 100%;
+    height: 120px;
+    background: #13183F;
+    padding: 32px 165px;
+}
+
+footer div {
+    max-width: 1110px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer button {
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
+    border: none;
+    border-radius: 28px;
+}
+
+footer button:hover {
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
