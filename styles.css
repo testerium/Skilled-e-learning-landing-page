@@ -151,13 +151,15 @@ h3 {
 .box1 {
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
     border-radius: 15px;
-    font-family: 'Plus Jakarta Sans';
+    padding-top: 64px;
+}
+
+.box1 > h2 {
     font-style: normal;
     font-weight: 800;
     font-size: 32px;
     line-height: 40px;
     color: #FFFFFF;
-    padding-top: 64px;
 }
 
 footer {
